@@ -1,0 +1,23 @@
+{
+  "name": "claude-qg",
+  "version": "0.1.0",
+  "description": "A permanent Claude Code 'hub' session with a notification channel, worker delegation and an urgency policy.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "channel": "bun channel/src/channel.ts",
+    "demo": "bun channel/demo/demo.ts",
+    "test": "bun test channel/test/policy.test.ts",
+    "test:e2e": "python3 -m pytest -q channel/test/test_channel.py",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1",
+    "zod": "3"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5"
+  }
+}
