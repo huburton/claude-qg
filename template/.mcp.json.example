@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "qg": {
+      "command": "bun",
+      "args": ["<path to this repo>/channel/src/channel.ts"],
+      "env": {
+        "QG_CHANNEL_KEY_FILE": "<path to a file containing the shared secret>",
+        "QG_CHANNEL_STATE": "<state dir, e.g. ~/.local/state/qg>",
+        "QG_NTFY_URL": "https://ntfy.example.com",
+        "QG_NTFY_TOPIC": "<your private topic>"
+      }
+    }
+  }
+}

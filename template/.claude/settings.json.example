@@ -1,0 +1,8 @@
+{
+  "crossSessionInbound": "accept",
+  "statusLine": {
+    "type": "command",
+    "command": "bash <path to this repo>/template/statusline-qg.sh",
+    "refreshInterval": 60
+  }
+}
