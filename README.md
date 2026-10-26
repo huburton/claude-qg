@@ -1,5 +1,7 @@
 # claude-qg
 
+*[Version française](README.fr.md)*
+
 A permanent Claude Code session that acts as a personal "headquarters" (QG, from the French *quartier général*): you talk to it from a desktop panel, a voice assistant or a phone, it delegates long jobs to background worker sessions, and it reaches you through one notification channel with an explicit urgency policy.
 
 ![Terminal capture of bun run demo](docs/demo.png)
